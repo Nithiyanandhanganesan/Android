@@ -1,0 +1,34 @@
+Download Android studio
+==========================
+
+https://developer.android.com/studio/
+
+Create project in android studio:
+-----------------------------------
+
+  -  Open android studio
+  -  select "start new android stuidio project"
+  -  give application name
+  -  package name should be unique.
+  -  Better to select api15 as android sdk version.
+  -  select empty activity.
+  - click finish
+  - Project will be created.
+
+
+Folder Structure:
+-------------
+
+app  - code
+  manifests
+     - androidmanifests.xml  ->contains basic details about the app.
+  java  - business logic code
+    - MainActivity -> start point of the application.
+  res -> contains icons, music , images
+    - drawable
+    - layout
+        - activity_main.xml  (home page of app) [ controls the layout of the application]
+    - mipmap
+    - values
+
+gradle ( automated build tool)
