@@ -32,3 +32,12 @@ app  - code
     - values
 
 gradle ( automated build tool)
+
+
+Add componenents into the application:
+---------------------------------------
+
+Drag and drop the componeents into the application.
+use relative layout.
+To change the layout from constraintlayout to relativelayout , right the constraintlayout in the componeent tree and select convert and
+select relativelayout.
